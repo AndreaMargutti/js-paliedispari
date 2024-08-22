@@ -8,3 +8,11 @@ Dichiariamo chi ha vinto.
 */
 
 // # Fase di preparazione
+//chiedo le informazioni all'utente
+//scelta tra pari e dispari
+const userChoice = prompt('Pari o Dispari?').toLowerCase().trim();
+console.log(userChoice);
+//scegliere tra un numero da 1 a 5
+const userNum = parseInt(prompt('Scegli un numero tra 1 e 5'));
+console.log(userNum, typeof(userNum));
+
